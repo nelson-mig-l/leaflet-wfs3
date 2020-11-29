@@ -1,0 +1,28 @@
+{
+  "name": "leaflet-wfs3",
+  "version": "1.0.0",
+  "description": "Leaflet plugin for easy adding of tiles from WFS3 server",
+  "main": "L.TileLayer.WFS3.js",
+  "scripts": {
+    "test": "",
+    "prepublish": "npm run uglify",
+    "uglify": "uglifyjs -o dist/L.TileLayer.WFS3.min.js L.TileLayer.WFS3.js"
+  },
+  "keywords": [
+    "Leaflet",
+    "Tiles"
+  ],
+  "author": "nelson-mig-l",
+  "license": "to kill",
+  "devDependencies": {
+    "uglify-js": "^3.3.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelson-mig-l/leaflet-wfs3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nelson-mig-l/leaflet-wfs3/issues"
+  },
+  "homepage": "https://github.com/nelson-mig-l/leaflet-wfs3"
+}
